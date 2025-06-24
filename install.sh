@@ -283,7 +283,7 @@ else
     echo "Expected vs Actual file counts:"
     echo "  Main config files: $main_files/4$([ "$main_files" -lt 4 ] && echo " ❌" || echo " ✓")"
     echo "  Command files: $command_files/19$([ "$command_files" -lt 19 ] && echo " ❌" || echo " ✓")"
-    echo "  Shared resources: $shared_files/31$([ "$shared_files" -lt 31 ] && echo " ❌" || echo " ✓")"
+    echo "  Shared resources: $shared_files/30$([ "$shared_files" -lt 30 ] && echo " ❌" || echo " ✓")"
     echo ""
     echo "Troubleshooting steps:"
     echo "1. Check for error messages above"
